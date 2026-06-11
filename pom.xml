@@ -14,4 +14,12 @@
         <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>Nexus Snapshots</name>
+            <url>http://nexus:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
